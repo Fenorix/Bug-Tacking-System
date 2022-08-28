@@ -1,0 +1,88 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(43,43,43);
+    padding: 20px ;
+}
+
+body {
+    background-color: #ebecf1;
+    color: #b3b9b9;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 50px auto;
+    background-color: rgb(43,43,43);
+    
+}
+
+.gridView {
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    padding: 15px;
+    display: flex;
+    background-color: rgb(84,84,84);
+    
+}
+
+.gridView .card{
+    width: 100%;
+    border: 1px solid rgb(128,128,128);
+    padding: 25px;
+    margin: 10px;
+    background-color: rgb(128,128,128);
+    border-radius: 2px;
+    /*align-items: center;
+    /*background-color: #b3b9b9;*/
+}
+
+p {
+    font-weight: 600;
+}
+.content {
+    color: #ebecf1;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 200;
+    border: 1px solid rgb(175,175,175);
+    border-radius: 3px;
+    display: list-item;
+    background-color: rgb(175,175,175);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    color: rgb(45,45,45);
+}
+.userpic {
+    color: #ebecf1;
+    display: inline;
+}
+.username{
+    color: #ebecf1;
+    display: inline;
+    text-decoration: none;
+}
+.Add{
+    display: list-item;
+    border: none; 
+  color: white; 
+  padding: 14px 28px; 
+  cursor: pointer;
+}
+.statuslow {
+    display: list-item;
+}
